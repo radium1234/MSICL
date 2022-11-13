@@ -28,7 +28,7 @@ Because the multimodal information of some items provided by the recbole framewo
 ├─ recbole
 	├─ data
 		├─ dataset
-        	├─ dataset.py
+        		├─ dataset.py
 ```
 
 ## Start training and inference

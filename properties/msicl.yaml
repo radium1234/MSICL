@@ -1,0 +1,20 @@
+load_col:
+  inter: [user_id, item_id, rating]
+
+embedding_size: 64
+n_layers: 3
+reg_weight: 1e-6
+hyper_layers: 1
+learning_rate: 0.001
+ssl_weight: 1e-6
+imagek: 11
+textk: 11
+ssl_temp: 0.08
+filtercluster: 5
+filterhop: 2
+image_weight: 0.2
+text_weight: 1
+image: 1
+text: 1
+eval_step: 10
+epochs: 1000

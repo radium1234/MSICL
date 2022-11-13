@@ -1,0 +1,17 @@
+eval_setting:
+  split:
+    RS: [0.8, 0.1, 0.1]
+  order: RO
+  group_by: user
+  mode: full
+
+train_batch_size: 4096
+eval_batch_size: 4096000
+valid_metric: Recall@10
+metrics: ["Recall", "NDCG","Precision"]
+topk: [10, 20, 50]
+warm_up_step: 20
+embedding_size: 64
+epochs: 500
+stopping_step: 10
+eval_step: 1

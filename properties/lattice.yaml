@@ -1,0 +1,22 @@
+load_col:
+  inter: [user_id, item_id, rating]
+
+
+loss_ratio: 0.03
+reg_weight: 1e-5
+epochs: 500
+warm_up_step: 20
+learning_rate: 0.0005
+
+embed_size: 64
+weight_size: '[64,64]'
+k: 10
+lambda_coeff: 0.9
+layers: 1
+mess_dropout: '[0.1, 0.1]'
+sparse: 1
+debug: 'store_true'
+norm_type: 'sym'
+stopping_step: 10
+eval_step: 10
+train_batch_size: 4096

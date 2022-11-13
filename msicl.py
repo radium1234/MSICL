@@ -94,7 +94,7 @@ class MSICL(GeneralRecommender):
         a=self.norm_adj_mat.to_dense()
         self.sum=0
         b= a
-        for i in range(0,self.filterhop*2-1):
+        for i in range(0,self.filterhop-1):
             b=torch.mm(b,a)
             if i%2==0:
                 self.sum=self.sum+b

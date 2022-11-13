@@ -1,10 +1,5 @@
 # -*- coding: utf-8 -*-
-r"""
-NCL
-################################################
-Reference:
-    Zihan Lin*, Changxin Tian*, Yupeng Hou*, Wayne Xin Zhao. "Improving Graph Collaborative Filtering with Neighborhood-enriched Contrastive Learning." in WWW 2022.
-"""
+
 import argparse
 import os.path
 

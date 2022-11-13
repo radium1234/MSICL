@@ -1,4 +1,4 @@
-import sys
+
 from time import time
 
 from torch.nn.utils.clip_grad import clip_grad_norm_

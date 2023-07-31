@@ -1,5 +1,7 @@
 # MSICL
 
+**2023.7.31. This article has been accepted by JIIS.**
+
 Improving Graph Collaborative Filtering with Multimodal-Side-Information-enriched Contrastive Learning
 
 We are constantly updating and sorting out our code
